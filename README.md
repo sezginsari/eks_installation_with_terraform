@@ -14,9 +14,11 @@ Kubernetes and also EKS consist of two main concept, call master node and worker
 
 •	Connect the EC2 worker nodes 
 
+
 In our scenario, we install EKS cluster with two worker nodes running on EC2.
 
 
 <img width="576" alt="eks" src="https://user-images.githubusercontent.com/100922989/172477591-94a8d0fd-9eba-41be-b40f-8f62171f3855.png">
+
 
 
