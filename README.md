@@ -15,6 +15,7 @@ Kubernetes and also EKS consist of two main concept, call master node and worker
 •	Connect the EC2 worker nodes 
 
 
+
 In our scenario, we install EKS cluster with two worker nodes running on EC2.
 
 
@@ -32,6 +33,7 @@ To create and configure EKS cluster, using terraform modules. We have only one m
 
 
 When the terraform apply command finish successfully, your cluster and resources will be ready to use.
+
 
 <img width="902" alt="aws_eks" src="https://user-images.githubusercontent.com/100922989/172482921-155cfcbc-7683-48d7-8a45-64c2f3c9026d.png">
 
