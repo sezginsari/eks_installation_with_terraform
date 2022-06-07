@@ -45,7 +45,10 @@ If you do not want to use these resources any more, use can use terraform apply 
 References
 
 https://aws.amazon.com/eks/ 
-https://aws.github.io/aws-eks-best-practices 
+
+https://aws.github.io/aws-eks-best-practices
+
 https://registry.terraform.io/modules/terraform-aws-modules/eks/aws/18.23.0 
+
 https://github.com/hashicorp/learn-terraform-provision-eks-cluster 
 
