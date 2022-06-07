@@ -31,5 +31,21 @@ To create and configure EKS cluster, using terraform modules. We have only one m
 •	terraform apply
 
 
+When the terraform apply command finish successfully, your cluster and resources will be ready to use.
 
+<img width="902" alt="aws_eks" src="https://user-images.githubusercontent.com/100922989/172482921-155cfcbc-7683-48d7-8a45-64c2f3c9026d.png">
+
+
+<img width="938" alt="ec2" src="https://user-images.githubusercontent.com/100922989/172482975-7142dc50-be75-4325-9ede-fdf36fb82dcc.png">
+
+
+If you do not want to use these resources any more, use can use terraform apply -destroy command to delete them. 
+
+
+References
+
+https://aws.amazon.com/eks/ 
+https://aws.github.io/aws-eks-best-practices 
+https://registry.terraform.io/modules/terraform-aws-modules/eks/aws/18.23.0 
+https://github.com/hashicorp/learn-terraform-provision-eks-cluster 
 
