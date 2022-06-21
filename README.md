@@ -23,7 +23,7 @@ In our scenario, we install EKS cluster with two worker nodes running on EC2.
 
 
 
-To create and configure EKS cluster, using terraform modules. We have only one main.tf file for all configuration. You can split the main.tf file to different .tf files like vpc.tf, eks.tf etc. To run main.tf, should install terraform and git as well (if you do not install git package, you will get errors. ) After complete this installation, you should these commands step by step.
+To create and configure EKS cluster, using terraform modules. We have only one main.tf file for all configuration. You can split the main.tf file to different .tf files like vpc.tf, eks.tf etc. To run main.tf, should install terraform and git as well (if you do not install git package, you will get errors. ) After complete this installation, you should run these commands step by step.
 
 •	terraform init 
 
